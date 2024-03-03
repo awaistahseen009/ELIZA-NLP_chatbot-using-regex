@@ -17,10 +17,10 @@ def eliza(inp: str, show_regex: bool) -> str:
 
 def main():
     # Set page title
-    st.set_page_config(page_title="ELIZA Chatbot for basic NLP questions", page_icon=":robot_face:")
+    st.set_page_config(page_title="ELIZA Chatbot", page_icon=":robot_face:")
     
     # Main content
-    st.title("ELIZA Chatbot")
+    st.title("ELIZA Chatbot for basic NLP questions")
     
     # Input
     user_input = st.text_input("You: ")
