@@ -1,4 +1,6 @@
 pairs = [
+    ('.*(hello|hi).*', "Hello! How can I assist you today?"),
+    ('.*(bye|goodbye).*', "Goodbye! Feel free to return if you have more questions."),
     ('.*I am (.*).*', 'Hello {}, I am Jarvis. How can I assist you ?'),
     ('.*Who.*you.*', 'I am Jarvis.Your personal assistant'),
     ('.*Tell.*(NLP)', 'What do you want to know about {}, Tell me a specific topic'),
