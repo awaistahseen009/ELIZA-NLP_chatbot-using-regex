@@ -7,13 +7,11 @@ def eliza(inp: str, show_regex: bool) -> str:
         pattern = re.compile(pair[0], re.IGNORECASE)
         match = re.search(pattern, inp)
         if match:
-            if match.groups(1):
-                if show_regex:
+            if show_regex:
                     st.code(f"Regex Pattern: {pair[0]}", language='plaintext')
+            if match.groups(1): 
                 return pair[1].format(match.group(1))
             else:
-                if show_regex:
-                    st.code(f"Regex Pattern: {pair[0]}", language='plaintext')
                 return pair[1]
     return "Sorry, I didn't understand your question"
 
