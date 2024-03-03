@@ -1,4 +1,3 @@
-```markdown
 # ELIZA Chatbot with Streamlit
 
 Welcome to the ELIZA Chatbot! This simple Streamlit app demonstrates the use of regular expressions (regex) to simulate conversations similar to the ELIZA chatbot from the 1960s.
@@ -12,7 +11,7 @@ Make sure you have Python installed on your system. You can download it from [py
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/awaistahseen009/ELIZA-NLP_chatbot-using-regex.git
    ```
 
 2. Navigate to the project directory:
